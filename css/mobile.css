@@ -1,0 +1,128 @@
+@media only screen and (min-width : 320px) and (max-width : 568px) {
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	img {
+		max-width: 100%;
+	}
+	body #page {
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		width: auto;
+	}
+	#header {
+		width: 100%;
+	}
+	#header div {
+		max-width: none;
+		overflow: hidden;
+		padding: 90px 0 13%;
+		width: 100%;
+	}
+	#header div a.logo {
+		display: block;
+		float: none;
+		height: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
+	#header div a.logo img {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		width: 50%;
+	}
+	#body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#body.home {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+}
+	@media only screen and (max-width : 918px) {
+	#body div.blog, #body div.singlepost {
+		margin: 0;
+		max-width: none;
+		overflow: hidden;
+		padding: 10% 0;
+		width: 100%;
+	}
+	#body.home div.header div {
+		margin: 0 auto;
+		max-width: 960px;
+		min-height: 470px;
+		padding: 0;
+		position: relative;
+	}
+	#body.home div.header img {
+		display: block;
+		height: 21%;
+		left: 0;
+		margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+	#body.home div.header div a {
+		margin: 0 auto;
+		padding: 52px 0 0;
+		position: relative;
+		right: 0;
+		top: 292px;
+	}
+	#body.home div.body div, #body.home div.footer div {
+		margin: 0 auto;
+		max-width: none;
+		width: 90%;
+	}
+	#body.home div.body div div {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+		width: 90%;
+	}
+	#body.home div.body div div h1, #body.home div.body div div h2, #body.home div.body div div p {
+		width: 100%;
+	}
+	#body.home div.body div img {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+		position: inherit;
+		width: 100%;
+	}
+	#body.home div.footer div ul li {
+		float: none;
+		margin: 0;
+		padding: 0 0 8%;
+		width: 100%;
+	}
+	#body.home div.footer div ul li a.contact {
+		float: none;
+	}
+	#body div.body {
+		min-height: 280px;
+	}
+	#body div.body img {
+		display: block;
+		height: 15%;
+		left: 0;
+		margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+	#body div.footer {
+		margin: 0;
+		max-width: none;
+		overflow: hidden;
+		padding: 0 0 0;
+		width: 100%;
+	}
+}	
